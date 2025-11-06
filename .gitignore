@@ -1,0 +1,35 @@
+# Build artifacts
+rust_subscriber/target/
+rust_subscriber/Cargo.lock
+
+# C++ build artifacts
+cpp_processor/build/
+cpp_processor/generated/
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# State files
+state.json
+*.json.tmp
+
+# Database files
+*.db
+*.rocksdb/
+
